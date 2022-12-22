@@ -14,10 +14,11 @@ import time
 from copy import deepcopy as dc
 import matplotlib.pyplot as plt
 import networkx as nx
+import numpy as np
 
 
 
-cuda_flag = True
+cuda_flag = False
 num_nodes = 40
 p_edge = 0.15
 mvc = MVC(num_nodes,p_edge)
